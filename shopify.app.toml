@@ -1,0 +1,36 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "fbd4b2d691245d0322ef72e0b69258a1"
+application_url = "https://interpretation-der-proven-doll.trycloudflare.com"
+embedded = true
+name = "boa-home-task-gbsh"
+handle = "boa-home-task-gbsh"
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-123.myshopify.com"
+
+[webhooks]
+api_version = "2024-10"
+
+[access.admin]
+direct_api_mode = "online"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://interpretation-der-proven-doll.trycloudflare.com/auth/callback",
+  "https://interpretation-der-proven-doll.trycloudflare.com/auth/shopify/callback",
+  "https://interpretation-der-proven-doll.trycloudflare.com/api/auth/callback"
+]
+
+[app_proxy]
+url = "https://interpretation-der-proven-doll.trycloudflare.com"
+subpath = "save-cart"
+prefix = "apps"
+
+[pos]
+embedded = false
