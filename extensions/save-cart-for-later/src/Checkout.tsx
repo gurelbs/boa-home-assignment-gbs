@@ -38,7 +38,7 @@ function SaveCartItemsForLater() {
   }
 
 
-  async function handleSubmit(event) {
+  async function handleSubmit() {
     setIsLoading(true);
     const checkedCartLines = checkCartLines.filter((line) => line.checked);
     console.log("checkedCartLines", checkedCartLines);

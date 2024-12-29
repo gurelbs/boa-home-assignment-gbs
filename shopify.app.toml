@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "fbd4b2d691245d0322ef72e0b69258a1"
-application_url = "https://fig-fraud-bolivia-decrease.trycloudflare.com/"
+application_url = "https://spirit-g-commentary-phrase.trycloudflare.com"
 embedded = true
 name = "boa-home-task-gbsh"
 handle = "boa-home-task-gbsh"
@@ -22,13 +22,13 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://fig-fraud-bolivia-decrease.trycloudflare.com/auth/callback",
-  "https://fig-fraud-bolivia-decrease.trycloudflare.com/auth/shopify/callback",
-  "https://fig-fraud-bolivia-decrease.trycloudflare.com/api/auth/callback"
+  "https://spirit-g-commentary-phrase.trycloudflare.com/auth/callback",
+  "https://spirit-g-commentary-phrase.trycloudflare.com/auth/shopify/callback",
+  "https://spirit-g-commentary-phrase.trycloudflare.com/api/auth/callback"
 ]
 
 [app_proxy]
-url = "https://fig-fraud-bolivia-decrease.trycloudflare.com/"
+url = "https://spirit-g-commentary-phrase.trycloudflare.com"
 subpath = "save-cart"
 prefix = "apps"
 
